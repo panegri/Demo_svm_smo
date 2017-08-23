@@ -1,4 +1,4 @@
-IPOL SVM SMO MATLAB DEMO
+IPOL SVM SMO MATLAB DEMO 
 ------------------------
 
 The demo applies a multi-style license plate number classification using a SVM classifier trained with SMO.
