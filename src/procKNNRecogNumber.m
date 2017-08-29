@@ -18,9 +18,9 @@
 % or write to the Free Software Foundation, Inc.,
 % 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
-function procKNNRecogNumber(parametersFolder,img,kernelFunction,NTRAIN,KNN)
+function procKNNRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN,KNN)
 
-fts = load(fullfile('SVMCode','data','index_HoG.mat'));
+fts = load(fullfile(dataFolder, 'index_HoG.mat'));
 str_kernel = [];
 d = [];
 gamma = [];
@@ -37,7 +37,7 @@ switch kernelFunction
 end
         
 classifier_name = ['svmSMOmultipliers_' num2str(NTRAIN*10) '.mat'];
-svm = load(fullfile('SVMCode','data',str_kernel,classifier_name));
+svm = load(fullfile(dataFolder, str_kernel,classifier_name));
 
 reliability = 0;
 number = -1;

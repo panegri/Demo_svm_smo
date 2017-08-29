@@ -18,24 +18,51 @@
 % or write to the Free Software Foundation, Inc.,
 % 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
-function procRecogNumber(parametersFolder,img,kernelFunction,NTRAIN,GRADIENT_DIRECTIONS,KNN)
+function procRecogNumber(dataFolder, parametersFolder, img, kernelFunction, ...
+                         NTRAIN, GRADIENT_DIRECTIONS, KNN, fromDemo)
 
 global POLYNOMIAL_DEGREE GAMMA
 
+if ~exist('fromDemo', 'var')
+    fromDemo = false;
+else
+    % From the IPOL demo, parameters are in string format, so convert them
+    % first.
+    if ischar(fromDemo) fromDemo = str2num(fromDemo); end
+    if ischar(NTRAIN) NTRAIN = str2num(NTRAIN); end
+    if ischar(kernelFunction) kernelFunction = str2num(kernelFunction); end
+    if ischar(GRADIENT_DIRECTIONS) GRADIENT_DIRECTIONS = str2num(GRADIENT_DIRECTIONS); end
+    if ischar(KNN) KNN = str2num(KNN); end
+end
+
 % Verify MEX compilation
 mexfile = ['getHogData_c.' mexext];
-if ~exist(fullfile('SVMCode','HoGFunctions',mexfile),'file')
+if (fromDemo && ~exist(mexfile, 'file'))
+    fprintf('HoG descriptor library not found.\n');
+    exit(0);
+end
+if ~fromDemo && ~exist(fullfile('SVMCode','HoGFunctions',mexfile),'file') 
     run(fullfile('SVMCode','HoGFunctions','make.m'));
 end
 
 % Verify the existence of HOG Features descriptors
-if ~exist(fullfile('SVMCode','data','index_HoG.mat'),'file')
-    run(fullfile('SVMCode','HoGFunctions','script_set_HoG_features.m'));
+if ~exist(fullfile(dataFolder,'index_HoG.mat'),'file')
+    if (fromDemo)
+        fprintf('index_HoG.mat not found. Please run script_set_HoG_features.m\n');
+        exit(0);
+    else
+        run(fullfile('SVMCode','HoGFunctions','script_set_HoG_features.m'));
+    end
 end
 
 % Verify the existence of Features Matrix from License Plate Dataset
-if ~exist(fullfile('SVMCode','data','HOGFeatures.mat'),'file')
-    run(fullfile('SVMCode','HoGFunctions','script_getLettersHOGFeatures.m'));
+if ~exist(fullfile(dataFolder,'HOGFeatures.mat'),'file')
+    if (fromDemo)
+        fprintf('HoGFeatures.mat not found. Please run script_getLettersHOGFeatures.m\n');
+        exit(0);
+    else
+        run(fullfile('SVMCode','HoGFunctions','script_getLettersHOGFeatures.m'));
+    end
 end
 
 C = 0.1;
@@ -52,22 +79,27 @@ switch kernelFunction
 end
 classifier_name = ['svmSMOmultipliers_' num2str(NTRAIN*10) '.mat'];
 % Verify if the classifier was already trained
-if ~exist(fullfile('SVMCode','data',str_kernel,classifier_name),'file')
-    % Initialize constants
-    % For POLYNOMIAL
-    POLYNOMIAL_DEGREE   = 2;
-    % For RBF
-    GAMMA               = 0.01;
-    mainScript
+if ~exist(fullfile(dataFolder,str_kernel,classifier_name),'file')
+    if (fromDemo)
+        fprintf('%s not found. Please train classifiers.\n', classifier_name);
+        exit(0);
+    else
+        % Initialize constants
+        % For POLYNOMIAL
+        POLYNOMIAL_DEGREE   = 2;
+        % For RBF
+        GAMMA               = 0.01;
+        mainScript
+    end
 end
 
 % Now run both classifications
 
 % SVM Classifcation
 % launch scrip
-procSVMRecogNumber(parametersFolder,img,kernelFunction,NTRAIN);
+procSVMRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN);
 
 % KNN Classifcation
 % launch scrip
-procKNNRecogNumber(parametersFolder,img,kernelFunction,NTRAIN,KNN)
+procKNNRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN,KNN)
 

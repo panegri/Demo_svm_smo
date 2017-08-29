@@ -164,7 +164,7 @@ KNN = 5;
 idx_nroSamples = get(handles.popupmenu_NroSamples,'Value');
 NTRAIN = LIST_NTRAIN(idx_nroSamples);
 
-procRecogNumber('tmp',handles.Crop,kernelFunction,NTRAIN,GRADIENT_DIRECTIONS,KNN);
+procRecogNumber('SVMCode/data', 'tmp',handles.Crop,kernelFunction,NTRAIN,GRADIENT_DIRECTIONS,KNN);
 
 % recover outputs and print on GUI
 % SVM
