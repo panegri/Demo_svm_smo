@@ -18,7 +18,12 @@
 % or write to the Free Software Foundation, Inc.,
 % 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
-function procKNNRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN,KNN)
+function procKNNRecogNumber(dataFolder, parametersFolder,img,kernelFunction, ...
+    NTRAIN,KNN, fromDemo)
+
+if ~exist('fromDemo', 'var')
+    fromDemo = false;
+end
 
 fts = load(fullfile(dataFolder, 'index_HoG.mat'));
 str_kernel = [];
@@ -49,5 +54,17 @@ xt = Pat(:);
 tic    
 knn_number = applyKNNonHOG(svm.x,svm.y,xt,KNN);
 tElapsed = toc;
-save(fullfile(parametersFolder,'knn_tElapsed.dat'),'tElapsed','-ascii');
-save(fullfile(parametersFolder,'knn_number.dat'),'knn_number','-ascii');
+filenameKNNTime = fullfile(parametersFolder,'knn_tElapsed.dat');
+filenameKNNNumber = fullfile(parametersFolder,'knn_number.dat');
+if fromDemo
+    fid = fopen(filenameKNNNumber,'wt');
+    fprintf(fid, '%d', knn_number);
+    fclose(fid);
+    fid = fopen(filenameKNNTime,'wt');
+    fprintf(fid, '%.4f seconds', tElapsed);
+    fclose(fid);
+    
+else
+    save(filenameKNNTime,'tElapsed','-ascii');
+    save(filenameKNNNumber,'knn_number','-ascii');
+end
