@@ -66,7 +66,7 @@ for i=1:10
     
     b = 0;
     E = -Targets; % error table
-    Alphas = ones(npts,1) / length(y);
+    Alphas = zeros(npts,1);
     
     % run the support vector algorithm
     computeSMOMultipliers(C);

@@ -46,6 +46,9 @@ if ~fromDemo && ~exist(fullfile('SVMCode','HoGFunctions',mexfile),'file')
 end
 
 % Verify the existence of HOG Features descriptors
+if ~exist(dataFolder,'dir')
+    mkdir(dataFolder);
+end 
 if ~exist(fullfile(dataFolder,'index_HoG.mat'),'file')
     if (fromDemo)
         fprintf('index_HoG.mat not found. Please run script_set_HoG_features.m\n');
@@ -96,6 +99,9 @@ end
 % Now run both classifications
 
 % SVM Classifcation
+if ~exist(parametersFolder,'dir')
+    mkdir(parametersFolder);
+end
 % launch scrip
 procSVMRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN);
 

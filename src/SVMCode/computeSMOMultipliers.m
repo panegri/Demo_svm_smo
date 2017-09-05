@@ -47,10 +47,16 @@ while numChanged > 0 || examineAll
         end
     end
     
-    fprintf('Error: %3.5f \n',max(E)-min(E));
-    fprintf('numChanged: %d \n',numChanged);
-    fprintf('examineAll: %d \n',examineAll);
-    fprintf('+-------------------------+\n');
+    qZAlphas = length(find(Alphas == 0));
+    qCAlphas = length(find(Alphas == C));
+    
+    fprintf('Max. Output Gap...............: \t %3.3f \n',max(E)-min(E));
+    fprintf('Nro. Support Vectors..........: \t %d \n',length(Alphas) - qZAlphas - qCAlphas);
+    fprintf('Nro. Zero Alphas..............: \t %d \n', qZAlphas);
+    fprintf('Nro. Bounded Alphas (alpha=C).: \t %d \n', qCAlphas);
+    fprintf('numChanged....................: \t %d \n',numChanged);
+    fprintf('examineAll....................: \t %d \n',examineAll);
+    fprintf('+--------------------------------------------------------+\n');
     if examineAll == 1
         examineAll = 0;
     elseif numChanged == 0
