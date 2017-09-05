@@ -18,7 +18,12 @@
 % or write to the Free Software Foundation, Inc.,
 % 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
-function procSVMRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN)
+function procSVMRecogNumber(dataFolder, parametersFolder,img,kernelFunction, ...
+    NTRAIN, fromDemo)
+
+if ~exist('fromDemo', 'var')
+    fromDemo = false;
+end
 
 fts = load(fullfile(dataFolder,'index_HoG.mat'));
 str_kernel = [];
@@ -63,7 +68,15 @@ end
 [mx,cl_mx] = max(vec_outputs);
 svm_number = cl_mx - 1;
 tElapsed = toc;
-save(fullfile(parametersFolder,'svm_tElapsed.dat'),'tElapsed','-ascii');
+
+filenameTimeSVM = fullfile(parametersFolder,'svm_tElapsed.dat');
+if (fromDemo)
+    fid = fopen(filenameTimeSVM,'wt');
+    fprintf(fid, '%.4f seconds', tElapsed);
+    fclose(fid);
+else    
+    save(filenameTimeSVM,'tElapsed','-ascii');
+end
 
 % CONFIDENCE COMPUTATION
 [sort_outputs,srt_mx] = sort(vec_outputs,'descend');
@@ -77,8 +90,20 @@ cd = pdf_outputs(1);
 
 svm_reliability = cr / svm.CR_TH * cd / svm.CD_TH;
 
-save(fullfile(parametersFolder,'svm_number.dat'),'svm_number','-ascii');
-save(fullfile(parametersFolder,'svm_reliability.dat'),'svm_reliability','-ascii');
+filenameSVMNumber = fullfile(parametersFolder,'svm_number.dat');
+filenameSVMReliability = fullfile(parametersFolder,'svm_reliability.dat');
+if (fromDemo)
+    fid = fopen(filenameSVMNumber,'wt');
+    fprintf(fid, '%d', svm_number);
+    fclose(fid);
+    fid = fopen(filenameSVMReliability,'wt');
+    fprintf(fid, '%.3f', svm_reliability);
+    fclose(fid);
+else    
+    save(filenameSVMNumber, 'svm_number','-ascii');
+    save(filenameSVMReliability, 'svm_reliability','-ascii');
+end
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function f = computeKernelFunction(x1,x2,KernelFunction,GAMMA,POLYNOMIAL_DEGREE)

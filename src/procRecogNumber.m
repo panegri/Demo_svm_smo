@@ -33,6 +33,7 @@ else
     if ischar(kernelFunction) kernelFunction = str2num(kernelFunction); end
     if ischar(GRADIENT_DIRECTIONS) GRADIENT_DIRECTIONS = str2num(GRADIENT_DIRECTIONS); end
     if ischar(KNN) KNN = str2num(KNN); end
+    if ischar(img) img = rgb2gray(imread(img)); end
 end
 
 % Verify MEX compilation
@@ -103,9 +104,9 @@ if ~exist(parametersFolder,'dir')
     mkdir(parametersFolder);
 end
 % launch scrip
-procSVMRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN);
+procSVMRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN, fromDemo);
 
 % KNN Classifcation
 % launch scrip
-procKNNRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN,KNN)
+procKNNRecogNumber(dataFolder, parametersFolder,img,kernelFunction,NTRAIN,KNN, fromDemo)
 
