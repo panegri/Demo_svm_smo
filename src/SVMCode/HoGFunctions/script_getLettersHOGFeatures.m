@@ -35,6 +35,7 @@ dchars = {
 
 Base = [];
 labels = [];
+name = {};
 
 load(fullfile('..','data','index_HoG.mat'));
 
@@ -45,6 +46,7 @@ for d=1:length(dchars)
     files = [files ; dir(fullfile(folder,dchars{d},'*.tif'))];
     tmp_Base = [];
     tmp_Labels = [];
+    tmp_name = {};
     for f=1:length(files)
         filename = fullfile(folder,dchars{d},files(f).name);
         disp(filename);
@@ -53,6 +55,7 @@ for d=1:length(dchars)
         Pat = getFeatureVector(Ip,GRADIENT_DIRECTIONS,index_HoG);     
         tmp_Base = [tmp_Base Pat(:)];      
         tmp_Labels = [tmp_Labels d-1];
+        tmp_name{end+1} = filename;
     end
     % verify if there are duplicated samples
     nexamples = length(tmp_Labels);
@@ -63,6 +66,7 @@ for d=1:length(dchars)
         if length(x) == 1
             Base = [Base tmp_Base(:,f)];
             labels = [labels tmp_Labels(f)];
+            name{end+1} = tmp_name{f};
         else
             fprintf('(%s) Duplicated sample: %s - %d\n',...
                 dchars{d},files(f).name,length(x));
@@ -70,4 +74,4 @@ for d=1:length(dchars)
     end
 end
 
-save(fullfile('..','data','HOGFeatures.mat'),'Base','labels');
+save(fullfile('..','data','HOGFeatures.mat'),'Base','labels','name');

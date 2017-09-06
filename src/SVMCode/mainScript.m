@@ -36,8 +36,28 @@ for i=0:9
     idx = find(labels == i);
     xp = randperm(length(idx));
     
-    x = [x Base(:,idx(xp(1:NTRAIN)))];
-    y = [y labels(idx(xp(1:NTRAIN)))];
+    % select equal number of samples from each country
+    country_count = zeros(4);
+    for j=1:length(xp)        
+        save_sample = 0;
+        if isArg(name{idx(xp(j))}) && country_count(1) < NTRAIN/4
+            save_sample = 1;
+            country_count(1) = country_count(1) + 1;
+        elseif isEEUU(name{idx(xp(j))}) && country_count(2) < NTRAIN/4
+            save_sample = 1;
+            country_count(2) = country_count(2) + 1;
+        elseif isPak(name{idx(xp(j))}) && country_count(3) < NTRAIN/4
+            save_sample = 1;
+            country_count(3) = country_count(3) + 1;
+        elseif country_count(4) < NTRAIN/4
+            save_sample = 1;
+            country_count(4) = country_count(4) + 1;
+        end
+        if save_sample
+            x = [x Base(:,idx(xp(j)))];
+            y = [y labels(idx(xp(j)))];
+        end
+    end
 end
 %%%%%%%%%%%% TRAIN %%%%%%%%%%%
 disp('Training...');
