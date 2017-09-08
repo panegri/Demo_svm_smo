@@ -50,7 +50,7 @@ while numChanged > 0 || examineAll
     qZAlphas = length(find(Alphas == 0));
     qCAlphas = length(find(Alphas == C));
     
-    fprintf('Max. Output Gap...............: \t %3.3f \n',max(E)-min(E));
+    fprintf('Max. Step Size................: \t %3.3f \n',max(E)-min(E));
     fprintf('Nro. Support Vectors..........: \t %d \n',length(Alphas) - qZAlphas - qCAlphas);
     fprintf('Nro. Zero Alphas..............: \t %d \n', qZAlphas);
     fprintf('Nro. Bounded Alphas (alpha=C).: \t %d \n', qCAlphas);
