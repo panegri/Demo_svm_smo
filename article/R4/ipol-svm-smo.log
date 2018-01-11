@@ -1,0 +1,606 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.4)  11 JAN 2018 18:52
+entering extended mode
+**./ipol-svm-smo.tex
+(ipol-svm-smo.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+(ipol.cls
+Document Class: ipol 2014/04/29 v0.4.3 IPOL article class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count90
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count91
+
+(C:\Users\Pablo\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen104
+\Fld@menulength=\count92
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip43
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+(C:\Users\Pablo\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)) (algorithm2e.sty
+Package: algorithm2e 2008/00/00 v3.10 algorithms environments
+\c@AlgoLine=\count98
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+********************************************************
+Package `algorithm2e' Release 4.01 -- december 14 2009 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (fiorio@lirmm.fr)
+********************************************************
+\skiptotal=\skip44
+\skiplinenumber=\skip45
+\skiprule=\skip46
+\skiphlne=\skip47
+\skiptext=\skip48
+\skiplength=\skip49
+\algomargin=\skip50
+\skipalgocfslide=\skip51
+\algowidth=\dimen109
+\inoutsize=\dimen110
+\inoutline=\dimen111
+\interspacetitleruled=\dimen112
+\interspacealgoruled=\dimen113
+\interspacetitleboxruled=\dimen114
+\algocf@inoutbox=\box26
+\algocf@inputbox=\box27
+\AlCapSkip=\skip52
+\AlCapHSkip=\skip53
+\algocf@nlbox=\box28
+\algocf@hangingbox=\box29
+\algocf@capbox=\box30
+\algoheightruledefault=\skip54
+\algoheightrule=\skip55
+\algotitleheightruledefault=\skip56
+\algotitleheightrule=\skip57
+\c@algocfline=\count99
+\c@algocfproc=\count100
+\c@algocf=\count101
+\algocf@algoframe=\box31
+\algocf@algobox=\box32
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks15
+\thm@bodyfont=\toks16
+\thm@headfont=\toks17
+\thm@notefont=\toks18
+\thm@headpunct=\toks19
+\thm@preskip=\skip58
+\thm@postskip=\skip59
+\thm@headsep=\skip60
+\dth@everypar=\toks20
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip61
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen115
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen116
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count102
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count103
+\leftroot@=\count104
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count105
+\DOTSCASE@=\count106
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box33
+\strutbox@=\box34
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip11
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks22
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks23
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks24
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+\c@definition=\count114
+ (slashbox.sty
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box35
+\@slashboxb=\box36
+\@slashboxc=\box37
+\@slashboxwd=\count115
+\@slashboxht=\count116
+\@slashsepl=\dimen124
+\@slashsepr=\dimen125
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.sty"
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
+\FV@CodeLineNo=\count117
+\FV@InFile=\read1
+\FV@TabBox=\box38
+\c@FancyVerbLine=\count118
+\FV@StepNumber=\count119
+\FV@OutFile=\write3
+) (ipol-svm-smo.aux)
+\openout1 = `ipol-svm-smo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+
+(C:\Users\Pablo\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen126
+\scratchbox=\box39
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen127
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks27
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box40
+Package hyperref Info: Link coloring ON on input line 78.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count126
+)
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
+ (ipol-svm-smo.out) (ipol-svm-smo.out)
+\@outlinefile=\write4
+\openout4 = `ipol-svm-smo.out'.
+
+
+<ipol_logo.png, id=60, 707.64375pt x 324.21124pt>
+File: ipol_logo.png Graphic file (type png)
+ <use ipol_logo.png>
+Package pdftex.def Info: ipol_logo.png used on input line 78.
+(pdftex.def)             Requested size: 163.89162pt x 75.08646pt.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 78.
+LaTeX Font Info:    No file OMScmss.fd. on input line 78.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead on input line 78.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count127
+\rotFPtop=\skip64
+\rotFPbot=\skip65
+\rot@float@box=\box41
+\rot@mess@toks=\toks28
+)
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ³ in font cmr10!
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 78.
+ [1
+
+{C:/Users/Pablo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ipol_logo.png>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [2]
+<HoG.pdf, id=105, 493.83746pt x 724.32184pt>
+File: HoG.pdf Graphic file (type pdf)
+ <use HoG.pdf>
+Package pdftex.def Info: HoG.pdf used on input line 191.
+(pdftex.def)             Requested size: 307.2929pt x 450.73274pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [3 <./HoG.pdf>]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+<svm_margin.png, id=203, 347.04657pt x 360.59718pt>
+File: svm_margin.png Graphic file (type png)
+ <use svm_margin.png>
+Package pdftex.def Info: svm_margin.png used on input line 225.
+(pdftex.def)             Requested size: 256.0748pt x 266.08392pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [4 <./svm_margin.png>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 414.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 414.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [7]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [8]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [9]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [10]
+<reliability_analysis_3.pdf, id=321, 233.50519pt x 418.38216pt>
+File: reliability_analysis_3.pdf Graphic file (type pdf)
+ <use reliability_analysis_3.pdf>
+Package pdftex.def Info: reliability_analysis_3.pdf used on input line 680.
+(pdftex.def)             Requested size: 230.46576pt x 412.94197pt.
+
+<reliability_analysis_E.pdf, id=322, 233.50519pt x 418.38216pt>
+File: reliability_analysis_E.pdf Graphic file (type pdf)
+ <use reliability_analysis_E.pdf>
+Package pdftex.def Info: reliability_analysis_E.pdf used on input line 681.
+(pdftex.def)             Requested size: 230.46576pt x 412.94197pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [11]
+<dataset.pdf, id=337, 462.66048pt x 256.85983pt>
+File: dataset.pdf Graphic file (type pdf)
+ <use dataset.pdf>
+Package pdftex.def Info: dataset.pdf used on input line 704.
+(pdftex.def)             Requested size: 358.50316pt x 199.03294pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [12 <./reliability_analysis_3.pdf> <./reliability_analysis_E.pdf
+
+pdfTeX warning: pdflatex.exe (file ./reliability_analysis_E.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [13 <./dataset.pdf>]
+<linear_results.pdf, id=449, 314.776pt x 304.337pt>
+File: linear_results.pdf Graphic file (type pdf)
+ <use linear_results.pdf>
+Package pdftex.def Info: linear_results.pdf used on input line 763.
+(pdftex.def)             Requested size: 230.46576pt x 222.82823pt.
+
+<polynomial_results.pdf, id=453, 395.879pt x 299.519pt>
+File: polynomial_results.pdf Graphic file (type pdf)
+ <use polynomial_results.pdf>
+Package pdftex.def Info: polynomial_results.pdf used on input line 809.
+(pdftex.def)             Requested size: 230.46576pt x 174.36554pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [14 <./linear_results.pdf>]
+<rbf_n200_d4.pdf, id=482, 240.9pt x 240.89642pt>
+File: rbf_n200_d4.pdf Graphic file (type pdf)
+ <use rbf_n200_d4.pdf>
+Package pdftex.def Info: rbf_n200_d4.pdf used on input line 854.
+(pdftex.def)             Requested size: 179.25548pt x 179.25668pt.
+ <rbf_n400_d4.pdf, id=483, 240.9pt x 240.89732pt>
+File: rbf_n400_d4.pdf Graphic file (type pdf)
+
+<use rbf_n400_d4.pdf>
+Package pdftex.def Info: rbf_n400_d4.pdf used on input line 855.
+(pdftex.def)             Requested size: 179.25548pt x 179.25735pt.
+ <rbf_n200_d8.pdf, id=484, 245.718pt x 242.44519pt>
+File: rbf_n200_d8.pdf Graphic file (type pdf)
+ <use rbf_n200_d8.pdf>
+Package pdftex.def Info: rbf_n200_d8.pdf used on input line 857.
+(pdftex.def)             Requested size: 179.25548pt x 176.87622pt.
+
+<rbf_n400_d8.pdf, id=485, 240.9pt x 240.89914pt>
+File: rbf_n400_d8.pdf Graphic file (type pdf)
+ <use rbf_n400_d8.pdf>
+Package pdftex.def Info: rbf_n400_d8.pdf used on input line 858.
+(pdftex.def)             Requested size: 179.25548pt x 179.25871pt.
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [15 <./polynomial_results.pdf>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [16 <./rbf_n200_d4.pdf> <./rbf_n400_d4.pdf
+
+pdfTeX warning: pdflatex.exe (file ./rbf_n400_d4.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+> <./rbf_n200_d8.pdf
+
+pdfTeX warning: pdflatex.exe (file ./rbf_n200_d8.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+> <./rbf_n400_d8.pdf
+
+pdfTeX warning: pdflatex.exe (file ./rbf_n400_d8.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+>]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [17]
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [18] (ipol-svm-smo.bbl
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [19]) 
+AED: lastpage setting LastPage
+
+Overfull \vbox (5.46666pt too high) has occurred while \output is active []
+
+ [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1020.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1020.
+ (ipol-svm-smo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1020.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1020.
+Package rerunfilecheck Info: File `ipol-svm-smo.out' has not changed.
+(rerunfilecheck)             Checksum: 9EB141861E3BD19876A039C5ED61611D;1098.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1020.
+ ) 
+Here is how much of TeX's memory you used:
+ 7781 strings out of 493323
+ 111698 string characters out of 3139067
+ 239750 words of memory out of 3000000
+ 11108 multiletter control sequences out of 15000+200000
+ 14809 words of font info for 54 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,18n,32p,386b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on ipol-svm-smo.pdf (20 pages, 640117 bytes).
+PDF statistics:
+ 695 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+

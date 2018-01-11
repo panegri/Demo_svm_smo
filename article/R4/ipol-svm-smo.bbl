@@ -1,0 +1,118 @@
+\begin{thebibliography}{10}
+
+\bibitem{Burges1998}
+{\sc J.C. Burges}, {\em {A Tutorial on Support Vector Machines for Pattern
+  Recognition}}, Data Mining and Knowledge Discovery, 2 (1998), pp.~121--167.
+\newblock \url{http://dx.doi.org/10.1023/A:1009715923555}.
+
+\bibitem{Cortes:1995}
+{\sc C.~Cortes and V.~Vapnik}, {\em Support-vector networks}, Machine Learning,
+  20 (1995), pp.~273--297.
+\newblock \url{http://dx.doi.org/10.1023/A:1022627411411}.
+
+\bibitem{Dalal:2005}
+{\sc N.~Dalal and B.Triggs}, {\em Histograms of oriented gradients for human
+  detection}, in IEEE Conference on Computer Vision and Pattern Recognition,
+  vol.~2, June 2005, pp.~886--893.
+\newblock \url{http://dx.doi.org/10.1109/CVPR.2005.177}.
+
+\bibitem{Dlagnekov:2005}
+{\sc L.~Dlagnekov and S.~Belongie}, {\em Recognizing cars}, Tech. Report
+  CS2005-083, UCSD CSE, 2005.
+
+\bibitem{Dlagnekov:dataset}
+{\sc L.~Dlagnekov and S.~Belongie}, {\em Ucsd/calit2 car license plate, make
+  and model database}, 2005.
+\newblock
+  \url{http://vision.ucsd.edu/belongie-grp/research/carRec/car_rec.html}.
+
+\bibitem{Gidudu:2007}
+{\sc A.~Gidudu, G.~Hulley, and T.~Marwala}, {\em {Image Classification Using
+  SVMs: One-against-One Vs One-against-All}}, in Asian Conference on Remote
+  Sensing, 2007.
+\newblock arXiv:0711.2914.
+
+\bibitem{Gomez:2011}
+{\sc F.~G\'{o}mez~Fern\'{a}ndez, P.~Negri, M.~Mejail, and J.~Jacobo}, {\em A
+  multi-style license plate recognition system based on tree of shapes for
+  character segmentation}, in Progress in Pattern Recognition, Image Analysis,
+  Computer Vision, and Applications, vol.~7042 of Lecture Notes in Computer
+  Science, Springer Berlin Heidelberg, 2011, pp.~443--450.
+\newblock \url{http://dx.doi.org/10.1007/978-3-642-25085-9_52}.
+
+\bibitem{Joachims:1998}
+{\sc T.~Joachims}, {\em Making large-scale svm learning practical}, in Advances
+  in Kernel Methods ? Support Vector Learning, MIT Press, 1998, pp.~169--184.
+\newblock ISBN~0-262-19416-3.
+
+\bibitem{Liu:2005}
+{\sc Y.~Liu and Y.F. Zheng}, {\em One-against-all multi-class svm
+  classification using reliability measures}, in International Joint Conference
+  on Neural Networks, vol.~2, 2005, pp.~849--854.
+
+\bibitem{medialab_greece}
+{\sc National Technical University of~Athenas Medialab}.
+\newblock \url{http://www.medialab.ntua.gr/research/LPRdatabase.html}, last
+  accesed on 2012.
+
+\bibitem{Milgram:2006}
+{\sc J.~Milgram, M.~Cheriet, and R.~Sabourin}, {\em {?One Against One? or ?One
+  Against All?: Which One is Better for Handwriting Recognition with SVMs?}},
+  in International Workshop on Frontiers in Handwriting Recognition, La Baule
+  (France), October 2006.
+\newblock inria-00103955.
+
+\bibitem{comvis_dataset}
+{\sc COMSATS~Institute of~Information~Technology}.
+\newblock
+  \url{http://comvis.ciitlahore.edu.pk/downloads/comvis_cardataset_v1.0.html}.
+
+\bibitem{Osuna:1997}
+{\sc E.~Osuna, R.~Freund, and F.~Girosi}, {\em An improved training algorithm
+  for support vector machines}, in IEEE Workshop Neural Networks for Signal
+  Processing, Sep 1997, pp.~276--285.
+\newblock \url{http://dx.doi.org/10.1109/NNSP.1997.622408}.
+
+\bibitem{Platt:1998}
+{\sc J.~Platt}, {\em Sequential minimal optimization: A fast algorithm for
+  training support vector machines}, Tech. Report MSR-TR-98-14, Microsoft
+  Research, 1998.
+
+\bibitem{Porikli:2005}
+{\sc F.~Porikli}, {\em Integral histogram: A fast way to extract histograms in
+  cartesian spaces}, in IEEE Conference on Computer Vision and Pattern
+  Recognition, 2005, pp.~829--836.
+\newblock \url{http://dx.doi.org/10.1109/CVPR.2005.188}.
+
+\bibitem{Rifkin:2004}
+{\sc R.~Rifkin and A.~Klautau}, {\em In defense of one-vs-all classification},
+  Journal of Machine Learning Research, 5 (2004), pp.~101--141.
+
+\bibitem{Scholkopf:2002}
+{\sc B.~Sch{\"o}lkopf and A.~Smola}, {\em Learning with Kernels. Support Vector
+  Machines, Regularization, Optimization, and Beyond}, MIT Press, Cambridge,
+  MA, 2002.
+\newblock ISBN~0262194759.
+
+\bibitem{Thome:2010}
+{\sc N.~Thome, A.~Vacavant, L.~Robinault, and S.~Miguet}, {\em A cognitive and
+  video-based approach for multinational license plate recognition}, Machine
+  Vision and Applications, 22 (2010), pp.~389--407.
+\newblock \url{http://dx.doi.org/10.1007/s00138-010-0246-3}.
+
+\bibitem{Vapnik:1982}
+{\sc Vladimir Vapnik}, {\em Estimation of Dependences Based on Empirical Data},
+  Springer-Verlag New York, Inc., 1982.
+\newblock ISBN~0387907335.
+
+\bibitem{Vapnik:1995}
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {The nature of
+  Statistical Learning Theory}}, Springer, 1995.
+\newblock ISBN~9780387987804.
+
+\bibitem{Viola:2004}
+{\sc P.~Viola and M.~Jones}, {\em Robust real-time face detection},
+  International Journal of Computer Vision, 57 (2004), pp.~137--154.
+\newblock \url{http://dx.doi.org/10.1023/B:VISI.0000013087.49260.fb}.
+
+\end{thebibliography}

@@ -1,0 +1,315 @@
+% Encoding: windows-1252
+
+@BOOK{book,
+  title = {Constrained optimization and Lagrange multiplier methods},
+  publisher = {Academic Press},
+  year = {1982},
+  author = {D.P.~Bertsekas},
+  note = {ISBN~1886529043}
+}
+
+@Article{Burges1998,
+  author =  {Burges, J.C.},
+  title =   {{A Tutorial on Support Vector Machines for Pattern Recognition}},
+  journal = {Data Mining and Knowledge Discovery},
+  year =    {1998},
+  volume =  {2},
+  number =  {2},
+  pages =   {121-167},
+  note =    {\url{http://dx.doi.org/10.1023/A:1009715923555}},
+  doi =     {10.1023/A:1009715923555},
+  issn =    {1573-756X}
+}
+
+@ELECTRONIC{comvis_dataset,
+  author = {COMSATS Institute of Information Technology},
+  note = {\url{http://comvis.ciitlahore.edu.pk/downloads/comvis_cardataset_v1.0.html}},
+  owner = {Pablo},
+  timestamp = {2015.12.30}
+}
+
+@INPROCEEDINGS{conference,
+  author = {D.~Zoran and Y.~Weiss},
+  title = {From learning models of natural image patches to whole image restoration},
+  booktitle = {Proceedings of the 13th International Conference on Computer Vision
+	(ICCV)},
+  year = {2011},
+  pages = {479???486},
+  note = {\url{http://dx.doi.org/10.1109/ICCV.2011.6126278}}
+}
+
+@Article{Cortes:1995,
+  author =    {Cortes, C. and Vapnik, V.},
+  title =     {Support-Vector Networks},
+  journal =   {Machine Learning},
+  year =      {1995},
+  volume =    {20},
+  number =    {3},
+  pages =     {273--297},
+  note =      {\url{http://dx.doi.org/10.1023/A:1022627411411}},
+  issn =      {1573-0565},
+  owner =     {pnegri},
+  timestamp = {2016.04.05}
+}
+
+@INPROCEEDINGS{Dalal:2005,
+  author = {N. Dalal and B.Triggs},
+  title = {Histograms of Oriented Gradients for Human Detection},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
+  year = {2005},
+  volume = {2},
+  pages = {886-893},
+  month = {June},
+  note = {\url{http://dx.doi.org/10.1109/CVPR.2005.177}},
+  keywords = {LEAR, ACEMEDIA, LAVA},
+  url = {http://lear.inrialpes.fr/pubs/2005/DT05}
+}
+
+@TECHREPORT{Dlagnekov:2005,
+  author = {Dlagnekov, L. and Belongie, S.},
+  title = {Recognizing Cars},
+  institution = {UCSD CSE},
+  year = {2005},
+  number = {CS2005-083},
+  owner = {Pablo},
+  timestamp = {2015.12.05}
+}
+
+@ELECTRONIC{Dlagnekov:dataset,
+  author = {L. Dlagnekov and S. Belongie},
+  year = {2005},
+  title = {Ucsd/calit2 car license plate, make and model database},
+  note = {\url{http://vision.ucsd.edu/belongie-grp/research/carRec/car_rec.html}},
+  owner = {Pablo},
+  timestamp = {2015.12.05}
+}
+
+@INPROCEEDINGS{Gidudu:2007,
+  author = {A. Gidudu and G. Hulley and T. Marwala},
+  title = {{Image Classification Using SVMs: One-against-One Vs One-against-All}},
+  booktitle = {Asian Conference on Remote Sensing},
+  year = {2007},
+  note = {arXiv:0711.2914},
+  owner = {Pablo},
+  timestamp = {2016.03.21}
+}
+
+@INCOLLECTION{Gomez:2011,
+  author = {G\'{o}mez Fern\'{a}ndez, F. and Negri, P. and Mejail, M. and Jacobo,
+	J.},
+  title = {A Multi-style License Plate Recognition System Based on Tree of Shapes
+	for Character Segmentation},
+  booktitle = {Progress in Pattern Recognition, Image Analysis, Computer Vision,
+	and Applications},
+  publisher = {Springer Berlin Heidelberg},
+  year = {2011},
+  volume = {7042},
+  series = {Lecture Notes in Computer Science},
+  pages = {443-450},
+  note = {\url{http://dx.doi.org/10.1007/978-3-642-25085-9_52}},
+  doi = {10.1007/978-3-642-25085-9_52},
+  isbn = {978-3-642-25084-2},
+  language = {English},
+  url = {http://dx.doi.org/10.1007/978-3-642-25085-9_52}
+}
+
+@InProceedings{Joachims:1998,
+  author =    {T. Joachims},
+  title =     {Making large-scale SVM learning practical},
+  booktitle = {Advances in Kernel Methods ? Support Vector Learning},
+  year =      {1998},
+  pages =     {169-184},
+  publisher = {MIT Press},
+  note =      {ISBN~0-262-19416-3}
+}
+
+@InProceedings{Kaufman:1998,
+  author =    {L. Kaufman},
+  title =     {Solving the quadratic programming problem arising in support vector classification},
+  booktitle = {Advances in Kernel Methods ? Support Vector Learning},
+  year =      {1998},
+  pages =     {147?168},
+  publisher = {MIT Press},
+  note =      {ISBN~0-262-19416-3}
+}
+
+@INPROCEEDINGS{Liu:2005,
+  author = {Y. Liu and Y.F. Zheng},
+  title = {One-against-all multi-class SVM classification using reliability
+	measures},
+  booktitle = {International Joint Conference on Neural Networks},
+  year = {2005},
+  volume = {2},
+  pages = {849-854},
+  owner = {PAN},
+  timestamp = {2015.12.14}
+}
+
+@ELECTRONIC{medialab_greece,
+  author = {Medialab, National Technical University of Athenas},
+  note = {\url{http://www.medialab.ntua.gr/research/LPRdatabase.html}, last
+	accesed on 2012.},
+  owner = {Pablo},
+  timestamp = {2015.12.30}
+}
+
+@INPROCEEDINGS{Milgram:2006,
+  author = {J. Milgram and M. Cheriet and R. Sabourin},
+  title = {{?One Against One? or ?One Against All?: Which One is Better for
+	Handwriting Recognition with SVMs?}},
+  booktitle = {International Workshop on Frontiers in Handwriting Recognition},
+  year = {2006},
+  address = {La Baule (France)},
+  month = {October},
+  note = {inria-00103955},
+  owner = {Pablo},
+  timestamp = {2016.03.21}
+}
+
+@InProceedings{Osuna:1997,
+  author =    {E. Osuna and R. Freund and F. Girosi},
+  title =     {An improved training algorithm for support vector machines},
+  booktitle = {IEEE Workshop Neural Networks for Signal Processing},
+  year =      {1997},
+  pages =     {276-285},
+  month =     {Sep},
+  note =      {\url{http://dx.doi.org/10.1109/NNSP.1997.622408}},
+  doi =       {10.1109/NNSP.1997.622408},
+  issn =      {1089-3555}
+}
+
+@TechReport{Platt:1998,
+  author =      {J. Platt},
+  title =       {Sequential Minimal Optimization: A Fast Algorithm for Training Support Vector Machines},
+  institution = {Microsoft Research},
+  year =        {1998},
+  number =      {MSR-TR-98-14},
+  owner =       {PAN},
+  timestamp =   {2015.12.02}
+}
+
+@InProceedings{Platt:1999,
+  author =    {J. Platt},
+  title =     {Using Analytic QP and Sparseness to Speed Training of Support Vector Machines},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year =      {1999},
+  pages =     {557-563},
+  month =     {January},
+  note =      {ISBN~0-262-11245-0},
+  abstract =  {<p>Training of support vector machine (SVM) requires the solution
+	of a very large quadratic programming (QP) problem. This paper proposes
+	an algorithm for training SVM's: Sequential Minimal Optimization,
+	or SMO. SMO breaks the large QP problem into a series of smallest
+	possible QP problems which are analytically solvable. Thus, SMO does
+	not require a numerical QP library. SMO's computation time is dominated
+	by evaluation of the kernel, hence kernel optimizations substantially
+	quicken SMO. For the MNIST database, SMO is 1.7 times as fast as
+	PCG chunking; while for the UCI adult databse and linear SVM's, SMO
+	can 1500 times faster than the PCG chunking algorithm.</p>},
+  owner =     {pnegri},
+  timestamp = {2016.04.05}
+}
+
+@INPROCEEDINGS{Porikli:2005,
+  author = {F. Porikli},
+  title = {Integral Histogram: A Fast Way to Extract Histograms in Cartesian
+	Spaces},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
+  year = {2005},
+  pages = {829-836},
+  note = {\url{http://dx.doi.org/10.1109/CVPR.2005.188}}
+}
+
+@ARTICLE{Rifkin:2004,
+  author = {R. Rifkin and A. Klautau},
+  title = {In Defense of One-Vs-All Classification},
+  journal = {Journal of Machine Learning Research},
+  year = {2004},
+  volume = {5},
+  pages = {101-141},
+  owner = {PAN},
+  timestamp = {2015.12.14}
+}
+
+@Book{Scholkopf:2002,
+  title =     {Learning with Kernels. Support Vector Machines, Regularization, Optimization, and Beyond},
+  publisher = {MIT Press},
+  year =      {2002},
+  author =    {B. Sch{\"o}lkopf and A. Smola},
+  address =   {Cambridge, MA},
+  note =      {ISBN~0262194759},
+  owner =     {Pablo},
+  timestamp = {2012.06.30}
+}
+
+@BOOK{strunk-white,
+  title = {The Elements of Style},
+  publisher = {Longman},
+  year = {1999},
+  author = {W.~Strunk and E.B.~White},
+  edition = {4th},
+  note = {ISBN~020530902X}
+}
+
+@ARTICLE{Thome:2010,
+  author = {Thome, N. and Vacavant, A. and Robinault, L. and Miguet, S.},
+  title = {A cognitive and video-based approach for multinational license plate
+	recognition},
+  journal = {Machine Vision and Applications},
+  year = {2010},
+  volume = {22},
+  pages = {389-407},
+  number = {2},
+  note = {\url{http://dx.doi.org/10.1007/s00138-010-0246-3}},
+  owner = {PAN},
+  timestamp = {2015.12.14}
+}
+
+@BOOK{turabian,
+  title = {A Manual for Writers of Research Papers, Theses, and Dissertations},
+  publisher = {The University of Chicago Press},
+  year = {2007},
+  author = {K.~Turabian},
+  edition = {7th},
+  note = {ISBN~075698355X}
+}
+
+@Book{Vapnik:1982,
+  title =     {Estimation of Dependences Based on Empirical Data},
+  publisher = {Springer-Verlag New York, Inc.},
+  year =      {1982},
+  author =    {Vladimir Vapnik},
+  note =      {ISBN~0387907335}
+}
+
+@Book{Vapnik:1995,
+  title =     {{The nature of Statistical Learning Theory}},
+  publisher = {Springer},
+  year =      {1995},
+  author =    {Vladimir Vapnik},
+  note =      {ISBN~9780387987804},
+  owner =     {Pablo},
+  timestamp = {2012.06.30}
+}
+
+@ARTICLE{Viola:2004,
+  author = {P. Viola and M. Jones},
+  title = {Robust Real-Time Face Detection},
+  journal = {International Journal of Computer Vision},
+  year = {2004},
+  volume = {57},
+  pages = {137-154},
+  number = {2},
+  note = {\url{http://dx.doi.org/10.1023/B:VISI.0000013087.49260.fb}},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@BOOK{williams,
+  title = {Style --- The Basics of Clarity and Grace},
+  publisher = {Pearson Longman},
+  year = {2008},
+  author = {J.~Williams},
+  edition = {3rd},
+  note = {ISBN~0205605354}
+}
+

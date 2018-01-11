@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Histogram of Oriented Gradient Feature Space}{}% 2
+\BOOKMARK [1][-]{section.3}{SVM-SMO Implementation}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{SVM Introduction}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Sequential Minimal Optimization: Two Variable Analytic Solution}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Implementation of the Sequential Minimal Optimization Algorithm}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Multi-class SVM Recognition Framework}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{SVM Multiclass Recognition Strategies}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Reliability Measures for Multi-Class SVM}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Experiments and Results}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{License Plate Number Datasets}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{Evaluation of Parameters}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{Operational Complexity and Time Considerations}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.4}{Results}{section.5}% 14
