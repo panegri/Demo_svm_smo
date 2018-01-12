@@ -5,8 +5,8 @@
 % Application to Multi-Style License Plate Numbers Recognition",
 % version 1.0 IPOL article
 % 
-% Copyright(c) 2016 Pablo Negri
-% pnegri@uade.edu.ar
+% Copyright(c) 2018 Pablo Negri
+% pnegri@uba.dc.ar
 % 
 % This file may be licensed under the terms of of the
 % GNU General Public License Version 2 (the ``GPL'').

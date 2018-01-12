@@ -1,12 +1,12 @@
 % This file is part of the implementation on MATLAB of the Platt pseudo 
 % code published on "Sequential Minimal Optimization: A Fast Algorithm
-% for Training Support Vector Machine" paper, corresponding to 
+% for Training Support Vector Machine" pape, corresponding to 
 % the "A MATLAB SMO Implementation to Train a SVM Classifier: 
 % Application to Multi-Style License Plate Numbers Recognition",
-% version 1.0 IPOL articler..
+% version 1.0 IPOL article.
 % 
-% Copyright(c) 2016 Pablo Negri
-% pnegri@uade.edu.ar
+% Copyright(c) 2018 Pablo Negri
+% pnegri@uba.dc.ar
 % 
 % This file may be licensed under the terms of of the
 % GNU General Public License Version 2 (the ``GPL'').
