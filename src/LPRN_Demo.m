@@ -145,6 +145,20 @@ function recogButton_Callback(hObject, eventdata, handles)
 % hObject    handle to recogButton (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+
+% Clean Boxes
+set(handles.KNN_number_edit,'String','#');
+set(handles.KNN_timeElapsed_edit,'String','');
+set(handles.number_edit,'String','#');
+set(handles.reliability_edit,'String','');
+set(handles.timeElapsed_edit,'String','');
+% Disable buttons
+set(handles.recogButton,'Enable','off');
+set(handles.upload,'Enable','off');
+set(handles.cropButton,'Enable','off');
+% update fig
+drawnow
+
 LIST_NTRAIN = [20 40];
 kernelFunction = get(handles.kernel_popmenu,'Value');
 
@@ -188,6 +202,13 @@ set(handles.KNN_timeElapsed_edit,'String',num2str(tElapsed));
 delete(fullfile('tmp','svm_number.dat'),fullfile('tmp','svm_reliability.dat'),...
     fullfile('tmp','svm_tElapsed.dat'),...
     fullfile('tmp','knn_number.dat'),fullfile('tmp','knn_tElapsed.dat'));
+% Enable buttons
+set(handles.recogButton,'Enable','on');
+set(handles.upload,'Enable','on');
+set(handles.cropButton,'Enable','on');
+% update fig
+drawnow
+
 % Update handles structure
 guidata(hObject, handles);
 

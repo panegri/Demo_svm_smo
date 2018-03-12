@@ -12,5 +12,5 @@ Usage
 =====
 
 1 - Browse the disks to a License Plata image using ''Upload Image'' button. There are some examples on ''LPImages'' folder.
-2 - By clicking button ''Crop Number'', it is possible to select a character by dragging a rectangle with the mouse. Double click the left button to finish the selection. The corresponding sub-image will be extracted an copied on the lower panel.
+2 - The button ''Crop Number'' selects a character by dragging a rectangle with the mouse. Double click the left button to finish the selection. The corresponding sub-image will be extracted an copied on the lower panel.
 3 - Classify the extracted image using button ''Number Recognition''. The demo shows the character associated with the classifier which obtained the highest SVM output score. It is also showed the reliability measure, which must be greater than 1 to be a reliable ouput, and the elapsed time in seconds.
