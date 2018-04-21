@@ -55,7 +55,7 @@ for i=1:nexamples
     m = mean(sort_outputs);
     v = var(sort_outputs);
     pdf_outputs = (sort_outputs - m).^2 / v;
-    % ver 3 - normalization
+    % normalize to obtain a pdf
     pdf_outputs = pdf_outputs / sum(pdf_outputs);
 %     
     Cr = pdf_outputs(1) / (sum(pdf_outputs(2:end)));

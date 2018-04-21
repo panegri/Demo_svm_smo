@@ -24,6 +24,8 @@
 function procRecogNumber(dataFolder, parametersFolder, img, kernelFunction, ...
                          NTRAIN, GRADIENT_DIRECTIONS, KNN, fromDemo)
 
+%  dataFolder should point to SVMCode/data if not run from the IPOL demo system.
+
 global POLYNOMIAL_DEGREE GAMMA
 
 if ~exist('fromDemo', 'var')
@@ -96,6 +98,7 @@ if ~exist(fullfile(dataFolder,str_kernel,classifier_name),'file')
         POLYNOMIAL_DEGREE   = 2;
         % For RBF
         GAMMA               = 0.01;
+        addpath(genpath('SVMCode'));
         mainScript
     end
 end

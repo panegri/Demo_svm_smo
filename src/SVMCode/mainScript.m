@@ -24,18 +24,18 @@
 global K E Targets Alphas b;
 
 load(fullfile('SVMCode','data','HOGFeatures.mat'));
+addpath('HoGFunctions');
 % Creating train data and test data.
 % NTRAIN samples randomly selected are used for train and the others for tests.
 rand('seed',100*NTRAIN);
 x = [];
 y = [];
-t = [];
-ytest = [];
+
 % Split randomly samples for training
 for i=0:9
     idx = find(labels == i);
     xp = randperm(length(idx));
-    
+
     % select equal number of samples from each country
     country_count = zeros(4);
     for j=1:length(xp)        
@@ -87,7 +87,7 @@ for i=1:10
     b = 0;
     E = -Targets; % error table
     Alphas = zeros(npts,1);
-    
+
     % run the support vector algorithm
     computeSMOMultipliers(C);
     % save computed variables on Tables

@@ -1,6 +1,6 @@
 % This file is part of the implementation on MATLAB of the Platt pseudo 
 % code published on "Sequential Minimal Optimization: A Fast Algorithm
-% for Training Support Vector Machine" paper, corresponding to 
+% for Training Support Vector Machine" pape, corresponding to 
 % the "A MATLAB SMO Implementation to Train a SVM Classifier: 
 % Application to Multi-Style License Plate Numbers Recognition",
 % version 1.0 IPOL article.
@@ -20,21 +20,15 @@
 % program. If not, go to http://www.gnu.org/licenses/gpl.html
 % or write to the Free Software Foundation, Inc.,
 % 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+function d = getHistogramChiSquareDistance(x,m)
 
-function fts = getFeatureVector(img_letter,N,index_HoG)
-DY = 16;
-DX = 12;
+A = x - m;
+B = x + m;
+mx = find(B==0);
+if ~isempty(mx), B(mx)=1;A(mx)=0;end  
 
-% resize number image to pattern size
-img_letter = imresize(double(img_letter),[DY DX]);
-% extend the size of the pattern to avoid gradient high values on image boundaries 
-img_bg = double(imresize(img_letter,[DY+2 DX+2]));
+R = (A .* A) ./ B;
 
-img_bg(2:end-1,2:end-1) = img_letter;
+d = sum(R,1);
 
-[m,o]=getgradsobel(img_bg,N);
-% clean bords
-M = m(2:end-1,2:end-1);
-O = o(2:end-1,2:end-1);
-
-fts = getHogFeatures(M,O,N,index_HoG);
+ 
